@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFEAD8;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.headingContainer h1 {
+  font-size: 3.5rem;
+  color: #9B177E;
+}
+span {
+  color: #2A1458;
+}
+.inputBoxContainer input {
+  height: 2.9rem;
+  width: 25rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  outline: none;
+  border: 2px solid #9B177E;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.inputBoxContainer button {
+  height: 2.9rem;
+  width: 7rem;
+  border: 2px solid #9B177E
+}
