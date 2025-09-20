@@ -46,3 +46,72 @@ span {
 .inputBoxContainer i {
   margin-right: 0.3rem;
 }
+
+.userPlateContainer {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.userInfoContainer {
+  display: flex;
+  gap: 2rem;
+}
+.imgContainer {
+  background-image: url(Weixin\ Image_2025-08-01_203339_530.jpg);
+  background-size: cover;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.nameInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.nameInfo h4 {
+  font-size: 2rem;
+}
+.nameInfo P {
+  font-size: 1rem;
+}
+
+.repoInfoContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+.repoInfoContainer p {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+
+
+
+.addressContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+.addressInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+
+
+
+.userScaner {
+  background-image: url(Weixin\ Image_2025-08-01_203339_530.jpg);
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+}
+
+
